@@ -15,7 +15,8 @@ body{
    background-color: gainsboro;
    text-align: justify;  
    background: linear-gradient(45deg, #3f75b7, #1C53A6);
-
+   background-image: url(/Img/fundoBody.jpg);
+   background-size: 100%;
      
 }
 
