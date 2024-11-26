@@ -1,0 +1,176 @@
+
+@import url(reset.css);
+
+:root{
+    --backgroundColor: corFodase;
+    --font-texto: "Lato", sans-serif;
+    --font-titulo: "Montserrat", sans-serif;
+    --cor-tag-A: #0D4A9A;
+}
+body{
+    font-family: var(--font-texto);
+    width: 100%;
+    height: 100%;
+    line-height: 1.7;
+   background-color: gainsboro;
+   text-align: justify;  
+   background: linear-gradient(45deg, #3f75b7, #1C53A6);
+
+     
+}
+
+.main, .aboutUs{
+    background-image: url(/Img/Leonardo_Phoenix_A_serene_and_simplistic_photography_image_fea_3.jpg);
+    background-size: 100%;
+}
+
+.divisao-texto{
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    align-items: center;
+    text-align: justify;
+    gap: 5rem;
+}
+
+
+.texto__topo{
+    margin: 0 2rem 0 0;
+}
+
+.logoImg{
+    width: 30rem;
+    height: 30rem;
+}
+
+.container__topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.barra-pesquisa{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0%;
+}
+
+.links {
+    background-color: gray;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border: 0.1px solid black;
+    color: white !important;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+}
+
+
+.links:hover {
+    transform: scale(1.1); 
+    background-color: gray; 
+}
+
+a:visited {
+    color: inherit; 
+}
+
+.imagem-site{
+    width: 30rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-family: var(--font-titulo);
+    margin: 2%;
+    font-size: 40px;
+    font-weight:700;
+    color: #26A395;
+}
+
+.title-natureza{
+    color: #93BA6F;
+}
+
+.main-Title{
+
+    font-size: 60px;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 5%;
+    color: white !important;
+}
+
+
+.container__textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto{
+    font-size:18px ;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.subtexto{
+    text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none !important; 
+    color: white !important; 
+  }
+  
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.imglogo {
+    width: 30em; 
+    height: 20em; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 2px solid #000; 
+    margin: 3%;
+    
+  }
+
+.bloco{
+    display: flex;
+    margin: 5% 5%;
+    
+}
+
+.desc{
+    display: flex;
+    align-items:center;
+}
+
+.tituloAbout{
+    
+    text-align: center;
+}
+
+.curri{
+    margin: 5% 5% 5% 2%;
+}
+
+.nome{
+    font-size: 30px;
+}
